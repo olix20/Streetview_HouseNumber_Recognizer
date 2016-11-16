@@ -8,12 +8,15 @@
 
 In this project, I will train a model that can decode sequences of digits from natural images, and create an app that prints the numbers it sees in real time. 
 
+The solution is based on deep learning. After preprocessing data, we create and train a Convolutional neueal network to recognize digits in realworld images. We then save and reuse the model in our application (Native android or web based .. haven't decided yet).
+
+
 ### Setup
-Recommended setup for a simple Python script or web app/service:
 
 Python
 NumPy, SciPy, iPython
-TensorFlow™
+TensorFlow
 
 ### Data
-Street View House Numbers (SVHN): A large-scale dataset of house numbers in Google Street View images.
+[Street View House Numbers (SVHN): A large-scale dataset of house numbers in Google Street View images.]
+(http://ufldl.stanford.edu/housenumbers/)
